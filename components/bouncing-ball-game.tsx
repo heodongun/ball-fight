@@ -74,8 +74,8 @@ export function BouncingBallGame() {
         {
           x: centerX - 100,
           y: centerY,
-          vx: 5,
-          vy: -4,
+          vx: 6,
+          vy: -5,
           radius: 25,
           color: "#00ffff",
           hp: 100,
@@ -90,8 +90,8 @@ export function BouncingBallGame() {
         {
           x: centerX + 100,
           y: centerY,
-          vx: -5,
-          vy: 4,
+          vx: -6,
+          vy: 5,
           radius: 25,
           color: "#ff00ff",
           hp: 100,
@@ -373,7 +373,7 @@ export function BouncingBallGame() {
             vy: vy,
             radius: 6,
             color: ball.color,
-            damage: 10,
+            damage: 7,
             owner: ballIndex,
           })
 
@@ -602,8 +602,8 @@ export function BouncingBallGame() {
         {
           x: centerX - 100,
           y: centerY,
-          vx: 5,
-          vy: -4,
+          vx: 6,
+          vy: -5,
           radius: 25,
           color: "#00ffff",
           hp: 100,
@@ -618,8 +618,8 @@ export function BouncingBallGame() {
         {
           x: centerX + 100,
           y: centerY,
-          vx: -5,
-          vy: 4,
+          vx: -6,
+          vy: 5,
           radius: 25,
           color: "#ff00ff",
           hp: 100,
